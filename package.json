@@ -1,0 +1,39 @@
+{
+    "name": "less-plugin-autoprefix",
+    "version": "0.0.1",
+    "description": "autoprefixer plugin for less.js",
+    "homepage": "http://lesscss.org",
+    "author": {
+        "name": "Luke Page"
+    },
+    "contributors": [
+        "The Core Less Team"
+    ],
+    "bugs": {
+        "url": "https://github.com/less/less-plugin-autoprefix/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/less/less-plugin-autoprefix.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/less/less-plugin-autoprefix/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+	"dependencies": {
+        "autoprefixer-core": "~3.1.0"
+	},
+    "devDependencies": {
+    },
+    "keywords": [
+        "less plugins",
+		"autoprefixer",
+		"less prefixes"
+    ]
+}
