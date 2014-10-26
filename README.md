@@ -14,5 +14,7 @@ npm install -g less-plugin-autoprefix
 and then on the command line,
 
 ```
-lessc file.less --autoprefix=OPTIONS
+lessc file.less --autoprefix="browsers"
 ```
+
+The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers).
