@@ -3,9 +3,11 @@
 less-plugin-autoprefix
 ========================
 
-Adds the ability for less to be post-processed by autoprefixer
+Uses autoprefixer to add prefixes to css after conversion from less.
 
-Use in lessc by installing
+## lessc usage
+
+Install..
 
 ```
 npm install -g less-plugin-autoprefix
@@ -18,3 +20,16 @@ lessc file.less --autoprefix="browsers"
 ```
 
 The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers).
+
+## Programmatic usage
+
+```
+var LessPluginAutoPrefix = require('less-plugin-autoprefix'),
+    autoprefixPlugin = new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
+less.render(lessString, { plugins: [autoprefixPlugin] })
+  .then(
+```
+
+## Browser usage
+
+Browser usage is not supported at this time.
