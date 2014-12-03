@@ -27,7 +27,7 @@
         "node": ">=0.4.2"
     },
 	"dependencies": {
-        "autoprefixer-core": "~3.1.2"
+        "autoprefixer-core": "~4.0.1"
 	},
     "devDependencies": {
     },
