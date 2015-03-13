@@ -23,7 +23,7 @@ The browsers are a comma seperated list of [browsers as specified with autoprefi
 
 ## Programmatic usage
 
-```
+```js
 var LessPluginAutoPrefix = require('less-plugin-autoprefix'),
     autoprefixPlugin = new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
 less.render(lessString, { plugins: [autoprefixPlugin] })
