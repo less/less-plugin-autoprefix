@@ -26,15 +26,15 @@
     "engines": {
         "node": ">=0.4.2"
     },
-	"dependencies": {
+    "dependencies": {
         "autoprefixer-core": "^5.0.0",
         "postcss": "^4.1.11"
-	},
+    },
     "devDependencies": {
     },
     "keywords": [
         "less plugins",
-		"autoprefixer",
-		"less prefixes"
+	    "autoprefixer",
+	    "less prefixes"
     ]
 }
