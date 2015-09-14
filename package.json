@@ -27,8 +27,8 @@
         "node": ">=0.4.2"
     },
     "dependencies": {
-        "autoprefixer-core": "^5.0.0",
-        "postcss": "^4.1.11"
+        "autoprefixer": "^6.0.0",
+        "postcss": "^5.0.0"
     },
     "devDependencies": {
     },
