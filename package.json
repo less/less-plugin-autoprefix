@@ -27,14 +27,13 @@
         "node": ">=0.4.2"
     },
     "dependencies": {
-        "autoprefixer": "^6.0.0",
-        "postcss": "^5.0.0"
+        "autoprefixer": "^8.6.3",
+        "postcss": "^6.0.22"
     },
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "keywords": [
         "less plugins",
-	    "autoprefixer",
-	    "less prefixes"
+        "autoprefixer",
+        "less prefixes"
     ]
 }
