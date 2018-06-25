@@ -24,7 +24,7 @@
     ],
     "main": "lib/index.js",
     "engines": {
-        "node": ">=0.4.2"
+        "node": ">=4.0.0"
     },
     "dependencies": {
         "autoprefixer": "^8.6.3",
