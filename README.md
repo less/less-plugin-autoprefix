@@ -10,7 +10,7 @@ Uses autoprefixer to add prefixes to css after conversion from less.
 Install..
 
 ```
-npm install -g less-plugin-autoprefix
+npm install -g less less-plugin-autoprefix
 ```
 
 and then on the command line,
