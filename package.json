@@ -1,6 +1,6 @@
 {
     "name": "less-plugin-autoprefix",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "autoprefixer plugin for less.js",
     "homepage": "http://lesscss.org",
     "author": {
@@ -24,11 +24,11 @@
     ],
     "main": "lib/index.js",
     "engines": {
-        "node": ">=4.0.0"
+        "node": ">=6.0.0"
     },
     "dependencies": {
-        "autoprefixer": "^8.6.3",
-        "postcss": "^6.0.22"
+        "autoprefixer": "^9.4.3",
+        "postcss": "^7.0.6"
     },
     "devDependencies": {},
     "keywords": [
