@@ -19,7 +19,7 @@ and then on the command line,
 lessc file.less --autoprefix="browsers"
 ```
 
-The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers).
+The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers). For use autoprefixer grid fallback option, add "grid-on" in browser list.
 
 ## Programmatic usage
 
