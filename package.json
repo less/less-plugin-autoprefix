@@ -28,7 +28,7 @@
     },
     "dependencies": {
         "autoprefixer": "^8.6.3",
-        "postcss": "^6.0.22"
+        "postcss": "^8.4.31"
     },
     "devDependencies": {},
     "keywords": [
